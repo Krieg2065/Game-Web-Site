@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+<div class="header">
+  <h1>Usefull Game</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+
+    <ul>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <li> <span class="material-icons">emoji_events</span>Obiettivi: </li>
+    <li> <span class="material-icons">emoji_events</span> Giocare 3 partite </li>
+    <li>  <span class="material-icons">emoji_events</span> Avere uno score di 2000</li>
+    <li> <span class="material-icons">emoji_events</span> Avere uno score di 5000</li>
+    <a href="gioco.html"><button class="button button1">Gioca</button></a>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1></h1>
+  </div>
+</div>
+
+</body>
+</html>
