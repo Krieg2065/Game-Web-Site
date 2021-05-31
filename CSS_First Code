@@ -1,0 +1,140 @@
+body {
+  background: rgb(104, 14, 14);
+}
+* {
+  box-sizing: border-box;
+}
+.button {
+  background-color: #ffe356; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: ffe356; 
+  color: black; 
+  border: 2px solid #ffd91c;
+}
+.button1:hover {
+  background-color: #ff6100;
+  color: white;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+[class*='col-'] {
+  float: left;
+  padding: 15px;
+}
+canvas {
+  border: 1px solid #d3d3d3;
+  background-color: #f1f1f1;
+}
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  background-color: #ffe356;
+  color: black;
+  padding: 30px;
+}
+.mdc--theme-primary {
+  background-color: #ff8f00;
+  color: #000000;
+}
+.mdc-component__selection .mdc-snackbar__action-button {
+  opacity: 1;
+  font-size: 12px;
+}
+.mdc-component__selection .mdc-snackbar {
+  left: auto !important;
+  transform: translate(-28%, -164%);
+  position: absolute;
+  min-width: 240px;
+  margin-left: -16px;
+  width: 240px;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ffe356;
+  color: black;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.menu li:hover {
+  background-color: #ff6100;
+}
+
+.footer {
+  background-color: #ffe356;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*='col-'] {
+    width: 100%;
+  }
+}
