@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<button class="button button1"onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELLERA</button>
+  <div class="row">
+    <div class="col-3 menu">
+      <ul>
+      <li>usa il bottone ACCELLERA per rimanere in aria</li>
+      <li>Quanto puoi sopravvivere?</li>
+      <a href="index.html"><button class="button button1">Torna al Menu</button></a>
+      </ul>
+    </div>
+    
+
+</html>
